@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1DF2686158F8987003B1D12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DF2685158F8987003B1D12 /* UIKit.framework */; };
+		B1DF2688158F8987003B1D12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DF2687158F8987003B1D12 /* Foundation.framework */; };
+		B1DF268A158F8987003B1D12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DF2689158F8987003B1D12 /* CoreGraphics.framework */; };
+		B1DF2690158F8987003B1D12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DF268E158F8987003B1D12 /* InfoPlist.strings */; };
+		B1DF2692158F8987003B1D12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2691158F8987003B1D12 /* main.m */; };
+		B1DF2696158F8987003B1D12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2695158F8987003B1D12 /* AppDelegate.m */; };
+		B1DF2699158F8987003B1D12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF2698158F8987003B1D12 /* ViewController.m */; };
+		B1DF269C158F8987003B1D12 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1DF269A158F8987003B1D12 /* ViewController_iPhone.xib */; };
+		B1DF269F158F8987003B1D12 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1DF269D158F8987003B1D12 /* ViewController_iPad.xib */; };
+		B1DF26A7158F89BB003B1D12 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DF26A6158F89BB003B1D12 /* Timer.m */; };
+		B1DF26B3158FA531003B1D12 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DF26B2158FA531003B1D12 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1DF2681158F8987003B1D12 /* cuckoo calibrator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cuckoo calibrator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DF2685158F8987003B1D12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1DF2687158F8987003B1D12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1DF2689158F8987003B1D12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1DF268D158F8987003B1D12 /* cuckoo calibrator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cuckoo calibrator-Info.plist"; sourceTree = "<group>"; };
+		B1DF268F158F8987003B1D12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1DF2691158F8987003B1D12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1DF2693158F8987003B1D12 /* cuckoo calibrator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cuckoo calibrator-Prefix.pch"; sourceTree = "<group>"; };
+		B1DF2694158F8987003B1D12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1DF2695158F8987003B1D12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1DF2697158F8987003B1D12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1DF2698158F8987003B1D12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1DF269B158F8987003B1D12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B1DF269E158F8987003B1D12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B1DF26A5158F89BB003B1D12 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		B1DF26A6158F89BB003B1D12 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
+		B1DF26B2158FA531003B1D12 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1DF267E158F8987003B1D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DF26B3158FA531003B1D12 /* AVFoundation.framework in Frameworks */,
+				B1DF2686158F8987003B1D12 /* UIKit.framework in Frameworks */,
+				B1DF2688158F8987003B1D12 /* Foundation.framework in Frameworks */,
+				B1DF268A158F8987003B1D12 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1DF2676158F8986003B1D12 = {
+			isa = PBXGroup;
+			children = (
+				B1DF26B2158FA531003B1D12 /* AVFoundation.framework */,
+				B1DF268B158F8987003B1D12 /* cuckoo calibrator */,
+				B1DF2684158F8987003B1D12 /* Frameworks */,
+				B1DF2682158F8987003B1D12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1DF2682158F8987003B1D12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2681158F8987003B1D12 /* cuckoo calibrator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1DF2684158F8987003B1D12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2685158F8987003B1D12 /* UIKit.framework */,
+				B1DF2687158F8987003B1D12 /* Foundation.framework */,
+				B1DF2689158F8987003B1D12 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1DF268B158F8987003B1D12 /* cuckoo calibrator */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF2694158F8987003B1D12 /* AppDelegate.h */,
+				B1DF2695158F8987003B1D12 /* AppDelegate.m */,
+				B1DF2697158F8987003B1D12 /* ViewController.h */,
+				B1DF2698158F8987003B1D12 /* ViewController.m */,
+				B1DF269A158F8987003B1D12 /* ViewController_iPhone.xib */,
+				B1DF269D158F8987003B1D12 /* ViewController_iPad.xib */,
+				B1DF268C158F8987003B1D12 /* Supporting Files */,
+				B1DF26A5158F89BB003B1D12 /* Timer.h */,
+				B1DF26A6158F89BB003B1D12 /* Timer.m */,
+			);
+			path = "cuckoo calibrator";
+			sourceTree = "<group>";
+		};
+		B1DF268C158F8987003B1D12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF268D158F8987003B1D12 /* cuckoo calibrator-Info.plist */,
+				B1DF268E158F8987003B1D12 /* InfoPlist.strings */,
+				B1DF2691158F8987003B1D12 /* main.m */,
+				B1DF2693158F8987003B1D12 /* cuckoo calibrator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1DF2680158F8987003B1D12 /* cuckoo calibrator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DF26A2158F8987003B1D12 /* Build configuration list for PBXNativeTarget "cuckoo calibrator" */;
+			buildPhases = (
+				B1DF267D158F8987003B1D12 /* Sources */,
+				B1DF267E158F8987003B1D12 /* Frameworks */,
+				B1DF267F158F8987003B1D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cuckoo calibrator";
+			productName = "cuckoo calibrator";
+			productReference = B1DF2681158F8987003B1D12 /* cuckoo calibrator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1DF2678158F8986003B1D12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B1DF267B158F8986003B1D12 /* Build configuration list for PBXProject "cuckoo calibrator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1DF2676158F8986003B1D12;
+			productRefGroup = B1DF2682158F8987003B1D12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1DF2680158F8987003B1D12 /* cuckoo calibrator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1DF267F158F8987003B1D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DF2690158F8987003B1D12 /* InfoPlist.strings in Resources */,
+				B1DF269C158F8987003B1D12 /* ViewController_iPhone.xib in Resources */,
+				B1DF269F158F8987003B1D12 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1DF267D158F8987003B1D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DF2692158F8987003B1D12 /* main.m in Sources */,
+				B1DF2696158F8987003B1D12 /* AppDelegate.m in Sources */,
+				B1DF2699158F8987003B1D12 /* ViewController.m in Sources */,
+				B1DF26A7158F89BB003B1D12 /* Timer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1DF268E158F8987003B1D12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DF268F158F8987003B1D12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1DF269A158F8987003B1D12 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DF269B158F8987003B1D12 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B1DF269D158F8987003B1D12 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DF269E158F8987003B1D12 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1DF26A0158F8987003B1D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1DF26A1158F8987003B1D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1DF26A3158F8987003B1D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cuckoo calibrator/cuckoo calibrator-Prefix.pch";
+				INFOPLIST_FILE = "cuckoo calibrator/cuckoo calibrator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1DF26A4158F8987003B1D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cuckoo calibrator/cuckoo calibrator-Prefix.pch";
+				INFOPLIST_FILE = "cuckoo calibrator/cuckoo calibrator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1DF267B158F8986003B1D12 /* Build configuration list for PBXProject "cuckoo calibrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DF26A0158F8987003B1D12 /* Debug */,
+				B1DF26A1158F8987003B1D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1DF26A2158F8987003B1D12 /* Build configuration list for PBXNativeTarget "cuckoo calibrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DF26A3158F8987003B1D12 /* Debug */,
+				B1DF26A4158F8987003B1D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1DF2678158F8986003B1D12 /* Project object */;
+}
